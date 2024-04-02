@@ -1,0 +1,35 @@
+/* CSS file for fridge app */
+body {
+    background-color: grey;
+}
+#screen {
+    border: ridge white;
+    border-width: 8px;
+    background-color: lightblue;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 50px;
+}
+.innerdiv {
+    margin: 10px 10px 10px 10px;
+    /**border: solid blue;*/
+}
+div {
+    float:left;
+    width: 90%;
+}
+.rightbutton {
+    float: right;
+    font-size: 20px;
+    margin: 10px 3px;
+    width: 80%;
+}
+button {
+    border: 3px solid darkblue;
+    border-radius: 3px;
+    font-size: 20px;
+    margin: 10px 3px;
+    padding: 10px;
+}
+.app {
+    visibility: hidden;
+}
