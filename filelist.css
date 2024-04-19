@@ -1,0 +1,24 @@
+#top {
+    width: 100%;
+    float: left;
+    margin-left: 20px;
+}
+#files {
+    width: 40%;
+    float: left;
+    border: ridge red 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 10px;
+}
+#myAvatar {
+    width: 15%;
+    float: left;
+    border: ridge red 3px;
+}
+body {
+    background-image: url("https://wallpapers.com/images/hd/adorable-3d-kirby-hd-nt03b2p1drlb17lr.jpg");
+    background-size: cover;
+    color: darkblue;
+}
