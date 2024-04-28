@@ -1,0 +1,223 @@
+{
+    "parkingLots": {
+        "mccann": {
+            "name": "McCann/Sheahan",
+            "mapFilename": "mccann.jpg",
+            "totalSpaces": "300",
+            "sideOfCampus": "West",
+            "nearbyBuildings": "McCann, Sheahan",
+            "comments": "Event on 5/1/24 from 6:00pm-11:00pm",
+            "parkingSpaces": {
+                "1": {
+                    "type": "Faculty/Staff, Resident Students, Commuter Students",
+                    "handicap": "Yes",
+                    "available": "Yes",
+                    "filled": "No",
+                    "reserved": "No",
+                    "lastFilledDate": "4/27/2024",
+                    "lastFilledTime": "1:09pm",
+                    "reservedDate": "4/30/2024",
+                    "reservedStartTime": "11:00am",
+                    "reservedEndTime": "12:30pm",
+                    "typeInSpot": "empty",
+                    "maxReserveTime": "2hr"
+                },
+                "2": {
+                    "type": "Faculty/Staff, Resident Students, Commuter Students",
+                    "handicap": "Yes",
+                    "available": "No",
+                    "filled": "Yes",
+                    "reserved": "No",
+                    "lastFilledDate": "4/28/2024",
+                    "lastFilledTime": "3:23pm",
+                    "reservedDate": "none",
+                    "reservedStartTime": "none",
+                    "reservedEndTime": "none",
+                    "typeInSpot": "Resident Student",
+                    "maxReserveTime": "2hr"
+                },
+                "3": {
+                    "type": "Faculty/Staff, Resident Students, Commuter Students",
+                    "handicap": "Yes",
+                    "available": "Yes",
+                    "filled": "No",
+                    "reserved": "No",
+                    "lastFilledDate": "4/28/2024",
+                    "lastFilledTime": "11:59am",
+                    "reservedDate": "none",
+                    "reservedStartTime": "none",
+                    "reservedEndTime": "none",
+                    "typeInSpot": "empty",
+                    "maxReserveTime": "2hr"
+                },
+                "4": {
+                    "type": "Faculty/Staff, Resident Students, Commuter Students",
+                    "handicap": "Yes",
+                    "available": "Yes",
+                    "filled": "No",
+                    "reserved": "No",
+                    "lastFilledDate": "4/27/2024",
+                    "lastFilledTime": "5:24pm",
+                    "reservedDate": "4/30/2024",
+                    "reservedStartTime": "1:30pm",
+                    "reservedEndTime": "2:30pm",
+                    "typeInSpot": "empty",
+                    "maxReserveTime": "2hr"
+                },
+                "5": {
+                    "type": "Faculty/Staff, Resident Students, Commuter Students",
+                    "handicap": "No",
+                    "available": "No",
+                    "filled": "No",
+                    "reserved": "Yes",
+                    "lastFilledDate": "4/27/2024",
+                    "lastFilledTime": "7:48pm",
+                    "reservedDate": "4/28/2024",
+                    "reservedStartTime": "3:00pm",
+                    "reservedEndTime": "5:00pm",
+                    "typeInSpot": "Commuter Student",
+                    "maxReserveTime": "2hr"
+                },
+                "6": {
+                    "type": "Faculty/Staff, Resident Students, Commuter Students",
+                    "handicap": "No",
+                    "available": "Yes",
+                    "filled": "No",
+                    "reserved": "No",
+                    "lastFilledDate": "4/28/2024",
+                    "lastFilledTime": "9:09am",
+                    "reservedDate": "none",
+                    "reservedStartTime": "none",
+                    "reservedEndTime": "none",
+                    "typeInSpot": "empty",
+                    "maxReserveTime": "2hr"
+                },
+                "7": {
+                    "type": "Faculty/Staff, Resident Students, Commuter Students",
+                    "handicap": "No",
+                    "available": "No",
+                    "filled": "Yes",
+                    "reserved": "No",
+                    "lastFilledDate": "4/28/2024",
+                    "lastFilledTime": "1:09pm",
+                    "reservedDate": "none",
+                    "reservedStartTime": "none",
+                    "reservedEndTime": "none",
+                    "typeInSpot": "Faculty/Staff",
+                    "maxReserveTime": "2hr"
+                },
+                "8": {
+                    "type": "Faculty/Staff, Resident Students, Commuter Students",
+                    "handicap": "No",
+                    "available": "No",
+                    "filled": "Yes",
+                    "reserved": "No",
+                    "lastFilledDate": "4/28/2024",
+                    "lastFilledTime": "8:30am",
+                    "reservedDate": "none",
+                    "reservedStartTime": "none",
+                    "reservedEndTime": "none",
+                    "typeInSpot": "Resident Student",
+                    "maxReserveTime": "2hr"
+                },
+                "9": {
+                    "type": "Faculty/Staff, Resident Students, Commuter Students",
+                    "handicap": "No",
+                    "available": "No",
+                    "filled": "Yes",
+                    "reserved": "Yes",
+                    "lastFilledDate": "4/28/2024",
+                    "lastFilledTime": "4:30pm",
+                    "reservedDate": "4/28/2024",
+                    "reservedStartTime": "4:30pm",
+                    "reservedEndTime": "6:00pm",
+                    "typeInSpot": "Resident Student",
+                    "maxReserveTime": "2hr"
+                },
+                "10": {
+                    "type": "Faculty/Staff, Resident Students, Commuter Students",
+                    "handicap": "No",
+                    "available": "No",
+                    "filled": "Yes",
+                    "reserved": "No",
+                    "lastFilledDate": "4/28/2024",
+                    "lastFilledTime": "1:00pm",
+                    "reservedDate": "none",
+                    "reservedStartTime": "none",
+                    "reservedEndTime": "none",
+                    "typeInSpot": "Faculty/Staff",
+                    "maxReserveTime": "2hr"
+                },
+                "11": {
+                    "type": "Faculty/Staff, Resident Students, Commuter Students",
+                    "handicap": "No",
+                    "available": "No",
+                    "filled": "No",
+                    "reserved": "No",
+                    "lastFilledDate": "4/28/2024",
+                    "lastFilledTime": "4:06pm",
+                    "reservedDate": "none",
+                    "reservedStartTime": "none",
+                    "reservedEndTime": "none",
+                    "typeInSpot": "Commuter Student",
+                    "maxReserveTime": "2hr"
+                },
+                "12": {
+                    "type": "Faculty/Staff, Resident Students, Commuter Students",
+                    "handicap": "No",
+                    "available": "Yes",
+                    "filled": "No",
+                    "reserved": "Yes",
+                    "lastFilledDate": "4/27/2024",
+                    "lastFilledTime": "10:56pm",
+                    "reservedDate": "4/29/2024",
+                    "reservedStartTime": "1:00pm",
+                    "reservedEndTime": "2:30pm",
+                    "typeInSpot": "empty",
+                    "maxReserveTime": "2hr"
+                }
+            }
+        },
+        "foy": {
+            "name": "Foy",
+            "mapFilename": "foy.jpg",
+            "totalSpaces": "50",
+            "sideOfCampus": "West",
+            "nearbyBuildings": "Foy Townhouses",
+            "comments": "Typically full from 11:00am-5:00pm"
+        },
+        "donnelly": {
+            "name": "Donnelly",
+            "mapFilename": "donnelly.jpg",
+            "totalSpaces": "45",
+            "sideOfCampus": "West",
+            "nearbyBuildings": "Donnelly",
+            "comments": "Only available to faculty/staff from 8:00am-5:00pm"
+        },
+        "fontaine": {
+            "name": "Fontaine",
+            "mapFilename": "fontaine.jpg",
+            "totalSpaces": "35",
+            "sideOfCampus": "West",
+            "nearbyBuildings": "Fontaine",
+            "comments": "Limited parking due to Dyson construction"
+        },
+        "lowerWest": {
+            "name": "Lower West Ceder",
+            "mapFilename": "lowerwest.jpg",
+            "totalSpaces": "60",
+            "sideOfCampus": "East",
+            "nearbyBuildings": "Lower West Townhouses",
+            "comments": "none"
+        },
+        "upperWest": {
+            "name": "Upper West Ceder",
+            "mapFilename": "upperwest.jpg",
+            "totalSpaces": "150",
+            "sideOfCampus": "East",
+            "nearbyBuildings": "Upper West Townhouses, Upper Fulton Townhouses",
+            "comments": "none"
+        }
+
+    }
+}
