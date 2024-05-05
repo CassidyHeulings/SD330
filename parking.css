@@ -46,3 +46,25 @@ body {
 .topBar .buttons a:hover {
     background-color: white;
 }
+.error {
+    width: 100%;
+}
+.error .errorText {
+    float: left;
+    width: 50%;
+    margin: 10px;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.error .errorText h2 {
+    font-size: 50px;
+}
+.error .errorText p {
+    font-size: 30px;
+}
+.error img{
+    width: 15%;
+    margin: 40px;
+    float: left;
+    margin-left: 150px;
+}
