@@ -27,7 +27,61 @@
         </div>
 
         <!-- Content -->
-        <p>Parking spot page</p>
+        <div class="spotsContent">
+            <div class="spotsHead">
+                <h1>McCann Parking Spots</h1>
+            </div>
+            <div class="breadcrumbs">
+                <a href="parking.html">Home</a> > <a href="lots.html">Lots</a> > <a href="spots.html">Spots</a>
+            </div>
+            <div class="slot">
+                <p class="spot" id="spot1">
+                <p class="spot" id="spot5">
+                <p class="spot" id="spot9">
+            </div>
+            <div class="slot">
+                <p class="spot" id="spot2">
+                <p class="spot" id="spot6">
+                <p class="spot" id="spot10">
+            </div>
+            <div class="slot">
+                <p class="spot" id="spot3">
+                <p class="spot" id="spot7">
+                <p class="spot" id="spot11">
+            </div>
+            <div class="slot">
+                <p class="spot" id="spot4">
+                <p class="spot" id="spot8">
+                <p class="spot" id="spot12"></p>
+            </div>
+        </div>
+
+        <!-- Data -->
+        <script type="module">
+            const response = await fetch("https://CassidyHeulings.github.io/SD330/parking.json");
+            const data = await response.json();
+
+            for (let i=1; i<13; i++)
+            {
+                let htmlString = "<h3>Parking Spot " + i + "</h3>";
+                    htmlString += "<p>Type: " + data['parkingLots']['mccann']['parkingSpaces'][i]['type'];
+                    htmlString += "<p>Handicap: " + data['parkingLots']['mccann']['parkingSpaces'][i]['handicap'];
+                    htmlString += "<p>Available: " + data['parkingLots']['mccann']['parkingSpaces'][i]['available'];
+                    htmlString += "<p>Filled: " + data['parkingLots']['mccann']['parkingSpaces'][i]['filled'];
+                    htmlString += "<p>Reserved: " + data['parkingLots']['mccann']['parkingSpaces'][i]['reserved'];
+                    htmlString += "<p>Last Filled Date: " + data['parkingLots']['mccann']['parkingSpaces'][i]['lastFilledDate'];
+                    htmlString += "<p>Last Filled Time: " + data['parkingLots']['mccann']['parkingSpaces'][i]['lastFilledTime'];
+                    htmlString += "<p>Reserved Date: " + data['parkingLots']['mccann']['parkingSpaces'][i]['reservedDate'];
+                    htmlString += "<p>Reserved Start Time: " + data['parkingLots']['mccann']['parkingSpaces'][i]['reservedStartTime'];
+                    htmlString += "<p>Reserved End Time: " + data['parkingLots']['mccann']['parkingSpaces'][i]['reservedEndTime'];
+                    htmlString += "<p>Type in Spot: " + data['parkingLots']['mccann']['parkingSpaces'][i]['typeInSpot'];
+                    htmlString += "<p>Max Reserve Time: " + data['parkingLots']['mccann']['parkingSpaces'][i]['maxReserveTime'];
+
+                    htmlString += "<p><a href='error.html' class='spotButton'>Reserve this spot</a>"
+
+                document.getElementById('spot'+i).innerHTML += htmlString;
+            }
+        </script>
     </body>
 
     <br style="clear:both">

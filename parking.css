@@ -47,6 +47,14 @@ body {
 .topBar .buttons a:hover {
     background-color: white;
 }
+.breadcrumbs {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: darkred;
+}
+.breadcrumbs a {
+    color: darkred;
+}
 /* Error page */
 .error {
     width: 100%;
@@ -69,6 +77,14 @@ body {
     margin: 40px;
     float: left;
     margin-left: 150px;
+}
+.errorButton {
+    background-color: transparent;
+    color: darkred;
+}
+.errorButton:hover {
+    background-color: darkred;
+    color: white;
 }
 /* lots page */
 .lotsContent {
@@ -106,4 +122,117 @@ body {
 .column .lot .lotText {
     margin-left: 13px;
     padding-left: 13px;
+}
+/* Spots page */
+.spotsContent {
+    width: 100%;
+    margin-left: 20px;
+}
+.slot {
+    width: 22%;
+    background-color: white;
+    margin: 10px;
+    float: left;
+    padding: 5px;
+}
+.spot {
+    margin: 15px;
+    padding: 5px;
+    border: 3px ridge darkred;
+    background-color: paleturquoise;
+}
+.spot p{
+    margin-left: 8px;
+}
+.spot h3{
+    margin-left: 8px;
+}
+.spotsHead{
+    width: 96.5%;
+    background-color: lightcoral;
+    border: 4px ridge darkred;
+    text-align: center;
+}
+.spotsHead h1{
+    background-color: white;
+    width: 70%;
+    margin-left: 15%;
+}
+.spotButton {
+    background-color: transparent;
+    font-size: 20px;
+    color: darkred;
+
+}
+.spotButton:hover {
+    background-color: darkred;
+    color: white;
+}
+/* Home Page */
+.homeContent {
+    margin: 5px;
+    margin-left: 30px;
+}
+.homeHead {
+    width: 98%;
+    background-color: lightcoral;
+    border: 4px ridge darkred;
+    text-align: center;
+}
+.homeHead h1{
+    background-color: white;
+    width: 70%;
+    margin-left: 15%;
+}
+.rightSection {
+    float: left;
+    width: 60%;
+    background-color: white;
+    margin: 10px;
+}
+.rightSection p{
+    margin: 20px;
+    font-size: 20px;
+}
+.rightSection h1{
+    margin: 20px;
+}
+.leftSection {
+    float: left;
+    width: 35%;
+    background-color: white;
+    margin: 10px;
+}
+.leftSection p{
+    margin: 20px;
+}
+.leftSection h2{
+    margin: 20px;
+}
+.section {
+    border: 3px ridge darkred;
+    background-color: paleturquoise;
+    margin: 10px;
+}
+.maristImg {
+    width: 20%;
+    padding: 20px;
+    float: left;
+    background-color: grey;
+}
+.cars {
+    float: left;
+    width: 18%;
+}
+.cars img{
+    width: 100%;
+}
+.homeImg {
+    width: 97%;
+    height: 180px;
+    background-color: grey;
+    padding-left: 40px;
+}
+.homeLink {
+    color: darkred;
 }
