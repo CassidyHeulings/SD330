@@ -202,7 +202,7 @@
             "nearbyBuildings": "Fontaine",
             "comments": "Limited parking due to Dyson construction"
         },
-        "lowerWest": {
+        "lowerwest": {
             "name": "Lower West Ceder",
             "mapFilename": "lowerwest.jpg",
             "totalSpaces": "60",
@@ -210,7 +210,7 @@
             "nearbyBuildings": "Lower West Townhouses",
             "comments": "none"
         },
-        "upperWest": {
+        "upperwest": {
             "name": "Upper West Ceder",
             "mapFilename": "upperwest.jpg",
             "totalSpaces": "150",

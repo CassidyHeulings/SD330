@@ -28,7 +28,71 @@ read from your JSON file -->
         </div>
 
         <!-- Content -->
-        <p>Parking Lot page</p>
+        <div class="lotsContent">
+            <div class="lotHead">
+                <h1>Parking Lots</h1>
+            </div>
+            <div class="column">
+                <div class="lot">
+                    <p class="lotImg" id="lowerWestPhoto">
+                    <p class="lotText" id="lowerWest">
+                </div>
+                <div class="lot">
+                    <p class="lotImg" id="mccannPhoto">
+                    <p class="lotText" id="mccann">
+                </div>
+            </div>
+            <div class="column">
+                <div class="lot">
+                    <p class="lotImg" id="foyPhoto">
+                    <p class="lotText" id="foy">
+                </div>
+                <div class="lot">
+                    <p class="lotImg" id="fontainePhoto">
+                    <p class="lotText" id="fontaine">
+                </div>
+            </div>
+            <div class="column">
+                <div class="lot">
+                    <p class="lotImg" id="donnellyPhoto">
+                    <p class="lotText" id="donnelly">
+                </div>
+                <div class="lot">
+                    <p class="lotImg" id="upperWestPhoto">
+                    <p class="lotText" id="upperWest">
+                </div>
+                
+            </div>
+        </div>
+        
+        <script type="module">
+            const response = await fetch("https://CassidyHeulings.github.io/SD330/parking.json");
+            const data = await response.json();
+
+            let lotArr = ['mccann', 'foy', 'donnelly', 'fontaine', 'lowerWest', 'upperWest'];
+
+            for (let i=0; i<lotArr.length; i++) {
+                let lotName = lotArr[i];
+
+                let htmlString = "<h3>" + data['parkingLots'][lotName]['name'] + " Lot Information: </h3>";
+                    htmlString += "<p>Total Spaces - " + data['parkingLots'][lotName]['totalSpaces'];
+                    htmlString += "<p>Side of Campus - " + data['parkingLots'][lotName]['sideOfCampus'];
+                    htmlString += "<p>Nearby Buildings - " + data['parkingLots'][lotName]['nearbyBuildings'];
+                    htmlString += "<p>Comments - " + data['parkingLots'][lotName]['comments'];
+                    if (lotName == 'mccann'){
+                        htmlString += "<p><a href='spots.html'>Reserve a spot.</a>";
+                    }
+                    else {
+                        htmlString += "<p><a href='error.html'>Reserve a spot.</a>";
+                    }
+                let htmlImg = "<img src='images/" + data['parkingLots'][lotName]['mapFilename'] + "' alt='" + lotName + " map'>";
+
+                document.getElementById(lotArr[i]).innerHTML += htmlString;
+                document.getElementById(lotArr[i] + 'Photo').innerHTML += htmlImg;
+            }
+
+        </script>
+
     </body>
 
     <br style="clear:both">
